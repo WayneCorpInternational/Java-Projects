@@ -5,7 +5,7 @@ public class cleciusparafarenh {
 	public static void main(String[] args) {
 	
 		//variaveis
-		Scanner leia= new Scanner(System.in); //instanciamento
+		Scanner leia = new Scanner(System.in); //instanciamento
 		String nome;
 		double celsius;
 		
