@@ -36,9 +36,7 @@ public class CalculoDoTriangulo {
 			
 		}
 		
-		else if() {
-		System.out.println(" Triangulo 2 é maior que triangulo 1 ");
+		
+	}
+	}
 
-	}
-	}
-}
