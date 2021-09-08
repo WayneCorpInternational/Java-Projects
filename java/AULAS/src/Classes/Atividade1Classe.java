@@ -16,7 +16,7 @@ public class Atividade1Classe {
 		
 		//variaveis
 		//entradas
-		//continhas
+		//continhaps
 		//saidas	
 	}
 }
