@@ -30,7 +30,4 @@ public class ItemCarrinho {
 	public void setQuantidade(int quantidade) {
 		this.quantidade = quantidade;
 	}
-	
-	
-
 }
