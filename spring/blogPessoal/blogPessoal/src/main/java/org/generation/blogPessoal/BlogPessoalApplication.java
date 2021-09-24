@@ -1,13 +1,13 @@
-package com.helo.helo;
+package org.generation.blogPessoal;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HeloApplication {
+public class BlogPessoalApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HeloApplication.class, args);
+		SpringApplication.run(BlogPessoalApplication.class, args);
 	}
 
 }
