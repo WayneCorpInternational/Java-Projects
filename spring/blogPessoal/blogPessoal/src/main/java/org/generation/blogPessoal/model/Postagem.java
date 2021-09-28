@@ -2,7 +2,6 @@ package org.generation.blogPessoal.model;
 
 import java.util.Date;
 
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -10,38 +9,26 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
-
-import org.hibernate.annotations.BatchSize;
-
-import com.sun.istack.NotNull;
-
-
-
-
-
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 @Entity
-@Table (name = "postagem")
-
+@Table(name = "postagem")
 public class Postagem {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	
 	private long id;
-	
+
 	@NotNull
-	@BatchSize(size = 100)
-	
+	@Size(min = 5, max = 100)
 	private String titulo;
-	
+
 	@NotNull
-	@BatchSize(size = 500)
-	
+	@Size(min = 10, max = 500)
 	private String texto;
-	
+
 	@Temporal(TemporalType.TIMESTAMP)
-	
 	private Date date = new java.sql.Date(System.currentTimeMillis());
 
 	public long getId() {
@@ -75,6 +62,5 @@ public class Postagem {
 	public void setDate(Date date) {
 		this.date = date;
 	}
-	
-	
+
 }
