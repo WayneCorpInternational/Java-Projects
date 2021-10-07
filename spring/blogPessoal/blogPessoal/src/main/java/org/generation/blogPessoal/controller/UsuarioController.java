@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import generation.org.blogPessoal.model.Usuario;
-import generation.org.blogPessoal.model.UsuarioLogin;
-import generation.org.blogPessoal.service.UsuarioService;
+import org.generation.blogPessoal.model.Usuario;
+import org.generation.blogPessoal.model.UsuarioLogin;
+import org.generation.blogPessoal.service.UsuarioService;
 
 @RestController
 @RequestMapping("/usuarios")

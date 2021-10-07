@@ -4,7 +4,7 @@ import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import generation.org.blogPessoal.model.Usuario;
+import org.generation.blogPessoal.model.Usuario;
 
 
 
