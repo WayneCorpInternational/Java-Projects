@@ -1,6 +1,6 @@
 package com.generation.lojaGames.model;
 
-public class UserLogin {
+public class UsuarioLogin {
 
 	private Long id;
 

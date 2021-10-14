@@ -19,7 +19,7 @@ import com.generation.lojaGames.model.Categoria;
 import com.generation.lojaGames.repository.CategoriaRepository;
 
 @RestController
-@RequestMapping("/categoria")
+@RequestMapping("/categorias")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class CategoriaController {
 
